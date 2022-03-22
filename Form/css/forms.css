@@ -1,0 +1,80 @@
+/* styles for my form */
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+/*** i am placing temporarily a padding in my body, just for the class exercise **/
+body {
+    background:beige;
+    padding:100px;
+}
+
+/***my form styles start here***/
+
+form {
+    max-width:580px;
+}
+
+fieldset {
+    padding:10px
+}
+
+label {
+    display:block;
+     margin-bottom:5px;
+    font-size:1.2em;
+}
+
+
+input[type=text],
+input[type=email] {
+    width:100%;
+    height:30px;
+    margin-bottom:10px;
+}
+
+input[type=radio],
+input[type=checkbox]{
+    margin-right:4px;
+}
+
+form ul {
+    margin-left:10px;
+    margin-bottom: 10px;
+}
+
+form li {
+    list-style-type:none;
+    line-height:1.3;
+}
+
+
+select {
+    margin-bottom:10px;
+}
+
+
+textarea {
+    width:100%;
+    height:100px;
+    resize: none;
+    margin-bottom:10px;
+}
+
+footer {
+    height:50px;
+    line-height:50px;
+    border-top:1px solid orange;
+    clear:both;
+    
+}
+
+footer li {
+    float:left;
+    list-style-type: none;
+    margin-right:30px;
+}
+
+
